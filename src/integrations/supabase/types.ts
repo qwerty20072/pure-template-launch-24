@@ -144,6 +144,7 @@ export type Database = {
           id: string
           name: string | null
           payouts_enabled: boolean | null
+          purchased_mock_papers: Json | null
           stripe_account_id: string | null
           subjects: Json | null
           university: string | null
@@ -161,6 +162,7 @@ export type Database = {
           id: string
           name?: string | null
           payouts_enabled?: boolean | null
+          purchased_mock_papers?: Json | null
           stripe_account_id?: string | null
           subjects?: Json | null
           university?: string | null
@@ -178,6 +180,7 @@ export type Database = {
           id?: string
           name?: string | null
           payouts_enabled?: boolean | null
+          purchased_mock_papers?: Json | null
           stripe_account_id?: string | null
           subjects?: Json | null
           university?: string | null
