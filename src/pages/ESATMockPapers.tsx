@@ -20,8 +20,7 @@ const ESATMockPapers = () => {
             ESAT Mock Papers
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Exclusive mock papers created by Cambridge engineering graduates. Master the ESAT with 
-            comprehensive practice covering all sections and question types.
+            Coming soon
           </p>
           <div className="mt-6 flex gap-4 justify-center">
             <Button variant="outline" asChild className="hover:scale-105 transition-transform duration-200">
