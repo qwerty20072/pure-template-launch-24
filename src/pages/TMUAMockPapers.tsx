@@ -336,8 +336,7 @@ const TMUAMockPapers = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">Ready to Excel in Your TMUA?</h3>
               <p className="mb-6 text-white/90">
-                Don't just practice with old papers. Train with exclusive mock exams created by Cambridge experts 
-                who know exactly what examiners are looking for.
+                Don't just practice with old papers. Train with exclusive mock exams.
               </p>
               <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                 <Button 
