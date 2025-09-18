@@ -192,7 +192,10 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      send_email_mailgun: {
+        Args: { message: Json }
+        Returns: Json
+      }
     }
     Enums: {
       user_type: "Student" | "Tutor"
