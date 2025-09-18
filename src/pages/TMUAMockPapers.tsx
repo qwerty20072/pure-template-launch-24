@@ -214,8 +214,8 @@ const TMUAMockPapers = () => {
             TMUA Mock Papers
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Exclusive mock papers created by Cambridge graduates. Practice with realistic exam conditions 
-            and get detailed feedback to maximize your TMUA score.
+            Exclusive mock papers - Practice with realistic exam conditions to maximize your TMUA score
+            
           </p>
           <div className="mt-6 flex gap-4 justify-center">
             <Button variant="outline" asChild className="hover:scale-105 transition-transform duration-200">
