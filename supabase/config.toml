@@ -1,5 +1,9 @@
 project_id = "ucdpswvctozxrehijjmb"
 
+[auth.email.template.confirmation]
+subject = "Verify Your Account - Oxbridge & Imperial Prep"
+content_path = "./supabase/email-templates/confirm-signup.html"
+
 [functions.check-connect-status]
 verify_jwt = true
 
