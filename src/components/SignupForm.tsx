@@ -185,8 +185,8 @@ const SignupForm = ({ onSwitchToLogin }: SignupFormProps) => {
         description: "Please check your email to verify your account before logging in.",
       });
       
-      // Redirect to verify page instead of login
-      navigate('/verify');
+      // Don't redirect - let Layout handle showing EmailVerificationRequired
+      // The user will see the email verification required screen automatically
     } catch (error) {
       toast({
         title: "Sign up failed",
