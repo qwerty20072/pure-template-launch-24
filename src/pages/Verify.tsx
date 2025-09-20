@@ -16,12 +16,12 @@ const Verify = () => {
   useEffect(() => {
     const verifyEmail = async () => {
       try {
-        const token = searchParams.get('token');
+        const token_hash = searchParams.get('token_hash');
         const type = searchParams.get('type');
         
-        if (type === 'email' && token) {
+        if (type === 'email' && token_hash) {
           const { error } = await supabase.auth.verifyOtp({
-            token_hash: token,
+            token_hash,
             type: 'email'
           });
 
