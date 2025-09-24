@@ -182,7 +182,7 @@ const Navigation = () => {
               }
             }}
           >
-            <img src="/lovable-uploads/89824f59-4b90-41ca-b98b-e502aca83a14.png" alt="Oxbridge & Imperial Prep" className="h-12" />
+            <img src="/loveable-uploads/89824f59-4b90-41ca-b98b-e502aca83a14.png" alt="Oxbridge & Imperial Prep" className="h-12" />
           </Link>
 
           {/* Desktop Navigation */}

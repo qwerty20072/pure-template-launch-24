@@ -37,7 +37,7 @@ const About = () => {
             <CardContent className="p-6 text-center">
               <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden animate-scale-in">
                 <img 
-                  src="/lovable-uploads/8c6435fe-d9e4-49bb-93f8-3e4301e1aa46.png" 
+                  src="/loveable-uploads/8c6435fe-d9e4-49bb-93f8-3e4301e1aa46.png" 
                   alt="Vincent - Co-Founder & CEO"
                   className="w-full h-full object-cover"
                 />
@@ -55,7 +55,7 @@ const About = () => {
             <CardContent className="p-6 text-center">
               <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden animate-scale-in">
                 <img 
-                  src="/lovable-uploads/20df6e6a-f8bd-443e-91be-aa41d7d31ca6.png" 
+                  src="/loveable-uploads/20df6e6a-f8bd-443e-91be-aa41d7d31ca6.png" 
                   alt="Pranav - Co-Founder & CMO"
                   className="w-full h-full object-cover"
                 />
@@ -74,7 +74,7 @@ const About = () => {
             <CardContent className="p-6 text-center">
               <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden animate-scale-in">
                 <img 
-                  src="/lovable-uploads/Praneeth.jpeg" 
+                  src="/loveable-uploads/Praneeth.jpeg" 
                   alt="Praneeth - Co-Founder & COO"
                   className="w-full h-full object-cover"
                 />
