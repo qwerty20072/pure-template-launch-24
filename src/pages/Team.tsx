@@ -423,9 +423,9 @@ const Team = () => {
               {/* Tutor Subjects Column */}
               <div>
                 <p className="font-medium mb-2 text-foreground">Tutor:</p>
-                <div className="flex flex-wrap gap-1">
+                <div className="flex flex-wrap gap-2">
                   {member.specialties.map((specialty: string) => (
-                    <Badge key={specialty} variant="secondary" className="text-xs">
+                    <Badge key={specialty} variant="secondary" className="text-xs font-medium px-3 py-1 min-w-fit border border-border/20">
                       {specialty}
                     </Badge>
                   ))}
